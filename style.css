@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Noticia+Text&family=Teko:wght@300&display=swap");
+body {
+  background-color: #f3d9b7;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.brand img {
+  width: 44px;
+}
+.brand {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1.3rem;
+  border-radius: 10;
+}
+
+nav {
+  font-family: "Teko", sans-serif;
+
+  /* position: sticky;
+  top: 0; */
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  height: 65px;
+  background-color: black;
+  color: white;
+}
+
+.about {
+  cursor: pointer;
+}
+.home {
+  cursor: pointer;
+}
+
+nav ul li {
+  padding: 0px 12px;
+}
+.container {
+  min-height: 72vh;
+  border-radius: 12px;
+  margin: 23px auto;
+  width: 70%;
+  padding: 34px;
+  background-color: black;
+  color: white;
+  font-family: "Noticia Text", serif;
+  display: flexbox;
+  background-image: url(background.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.icons {
+  margin-top: 21px;
+}
+.icons i {
+  cursor: pointer;
+}
+.songItem {
+  color: black;
+  height: 50px;
+  display: flex;
+  background-color: white;
+  width: 50%;
+  margin: 12px 0;
+  border-radius: 30px;
+  align-items: center;
+  justify-content: space-between;
+}
+.songItem img {
+  height: 50px;
+  width: 50px;
+  border-radius: 23px;
+}
+
+.timestamp {
+  margin: 0 23px;
+}
+
+.timestamp i {
+  margin: 0 23px;
+  cursor: pointer;
+}
+
+.songItemContainer {
+  margin-top: 50px;
+}
+
+.bottom {
+  position: sticky;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  height: 130px;
+  background-color: black;
+  color: white;
+  bottom: 0;
+  align-items: center;
+  flex-direction: column;
+}
+
+#ani {
+  margin-top: 55px;
+  margin-bottom: 23px;
+  position: absolute;
+  left: 10vw;
+  opacity: 0;
+  transition: opacity 1s ease-in;
+}
+
+#gif{
+  opacity: 0;
+  transition: opacity 1s ease-in;
+}
+#myProgressBar {
+  width: 70vw;
+  margin-top: 20px;
+  cursor: pointer;
+}
